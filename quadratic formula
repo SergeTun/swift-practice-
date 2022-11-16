@@ -1,0 +1,12 @@
+var a = 2
+var b = 5
+var c = 3
+
+var root1 : Double
+var root2 : Double
+
+root1 = (-b + ((b * b) - (4 * a) * c).squareRoot()) / (a * 2)
+root2 = (-b - ((b * b) - (4 * a) * c).squareRoot()) / (a * 2)
+
+print(root1)
+print(root2)
