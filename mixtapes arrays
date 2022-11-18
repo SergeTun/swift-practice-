@@ -1,0 +1,39 @@
+// Write your code below 📼
+//improvement
+print(".------------------------.")
+print("| To old me       90 min |")
+print("|     __  ______  __     |")
+print("|    (  )|).....|(  )    |")
+print("|    (__)|)_____|(__)    |")
+print("|    ________________    |")
+print("|___/_._o________o_._\\___|")
+print("                          ")
+
+var count: Int = 0
+var mixtapes = [String]() 
+
+mixtapes.append("Murder in My Mind - Kordhell")
+mixtapes.append("Fragile - Laufey")
+mixtapes.append("Day by Day - grentperez")
+mixtapes.append("Valentine - Laufey")
+mixtapes.append("Beautiful Stranger - Laufey")
+mixtapes.append("Falling Behind - Laufey")
+mixtapes.append("Let you break my heart again - Laufey")
+mixtapes.append("You might be sleeping again - Jakob")
+mixtapes.append("Pluto Projector - Rex Orange County")
+mixtapes.append("Dream - Autograf")
+mixtapes.append("Keep the Faith - Moon Boots")
+mixtapes.remove(at: 0)
+
+print("Side A:")
+print("       ")
+
+for items in mixtapes {
+  count += 1
+  if count == 5 {
+    print("       ")
+    print("Side B:")
+    print("       ")
+  }
+  print("\(count). \(items)")
+}
