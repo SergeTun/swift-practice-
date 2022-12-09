@@ -29,3 +29,4 @@ var upperFence = upperQuartile + 1.5 * interQuartile
 print("Upper fence is: \(upperFence)")
 var lowerFence = lowerQuartile - 1.5 * interQuartile
 print("Lower fence is \(lowerFence)")
+
