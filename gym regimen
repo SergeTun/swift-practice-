@@ -13,7 +13,7 @@ init(name: String, muscleGroups: [String], reps: Int, sets: Int) {
   self.totalReps = reps * sets
   }
 }
-var pushUp = Exercise(name: "Push ups", muscleGroups: ["Triceps", "Chest", "Shoulders"], reps: 10, sets: 3)
+var pushUp = Exercise(name: "Push ups", muscleGroups: ["Triceps", "Chest", "Shoulders"], reps: 12, sets: 3)
 
 
 struct Regimen {
